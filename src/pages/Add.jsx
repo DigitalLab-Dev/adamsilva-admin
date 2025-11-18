@@ -15,12 +15,11 @@ const Add = () => {
   const [impact, setImpact] = useState('HIGH'); // New state for impact
 
   const blogCategories = [
-    'Technology',
-    'Artificial Intelligence',
-    'Business',
-    'Finance',
-    'Marketing',
-    'Data Automation',
+    'Strategic Analysis',
+    'Market Intelligence',
+    'Technical Implementation',
+    'Authority Building',
+    'Business Strategy',
   ];
 
   // New array for impact options
