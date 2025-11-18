@@ -8,19 +8,18 @@ const EditBlogModal = ({ setOpenModal, selectedBlog, onUpdate }) => {
   const [title, setTitle] = useState("");
   const [subtitle, setSubtitle] = useState("");
   const [description, setDescription] = useState("");
-  const [category, setCategory] = useState("Technology");
+  const [category, setCategory] = useState("Strategic Analysis");
   const [loading, setLoading] = useState(false);
 
   // Images (max 4 slots)
   const [images, setImages] = useState([null, null, null, null]);
 
   const blogCategories = [
-    "Technology",
-    "Artificial Intelligence",
-    "Business",
-    "Finance",
-    "Marketing",
-    "Data Automation",
+    "Strategic Analysis",
+    'Market Intelligence',
+    'Technical Implementation',
+    'Authority Building',
+    'Business Strategy',
   ];
 
   // Load blog data into state
