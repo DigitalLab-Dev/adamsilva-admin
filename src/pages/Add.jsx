@@ -11,7 +11,7 @@ const Add = () => {
   const [title, setTitle] = useState('');
   const [excerpt, setExcerpt] = useState('');
   const [content, setContent] = useState('');
-  const [category, setCategory] = useState('Technology');
+  const [category, setCategory] = useState('Strategic Analysis');
   const [impact, setImpact] = useState('HIGH'); // New state for impact
 
   const blogCategories = [
